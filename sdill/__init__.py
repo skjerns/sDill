@@ -12,9 +12,9 @@ def load(file):
     """
     if type(file) is str:
         with open(file, 'rb') as f:
-            return sload.load(f)
+            return sload(f)
     else:
-        return sload.load(file)
+        return sload(file)
             
 def dump(obj, file, protocol=None, byref=None, fmode=None, recurse=None):
     """
