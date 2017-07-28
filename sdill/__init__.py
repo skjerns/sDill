@@ -29,4 +29,3 @@ def dump(obj, file, protocol=None, byref=None, fmode=None, recurse=None):
             return sdump(obj, f, protocol=None, byref=None, fmode=None, recurse=None)
     elif type(file):
         return sdump(obj, file, protocol=None, byref=None, fmode=None, recurse=None)
-    
