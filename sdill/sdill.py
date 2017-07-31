@@ -1,4 +1,3 @@
-from dill import *
 from dill import load as sload
 from dill import dump as sdump
 
