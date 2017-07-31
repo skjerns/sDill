@@ -11,7 +11,6 @@ def load(file):
     """
     if type(file) is str:
         with open(file, 'rb') as f:
-            print('[using sDill]')
             return sload(f)
     else:
         return sload(file)
@@ -26,7 +25,6 @@ def dump(obj, file, protocol=None, byref=None, fmode=None, recurse=None):
     """
     if type(file) is str:
         with open(file, 'wb') as f:
-            print('[using sDill]')
             return sdump(obj, f, protocol=None, byref=None, fmode=None, recurse=None)
     elif type(file):
         return sdump(obj, file, protocol=None, byref=None, fmode=None, recurse=None)
