@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='sdill',
-      version='0.18',
+      version='0.19',
       description='A Dill wrapper to call dill with file strings',
       url='http://github.com/skjerns/sDill',
       author='skjerns',
